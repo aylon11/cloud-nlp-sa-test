@@ -2,6 +2,11 @@
     "name": "nlp-test",
     "options": {
       "allow-unauthenticated": true
+    },
+    "hooks": {
+        "prebuild": {
+          "commands": ["chmod 777 ./prebuild.sh", "./prebuild.sh"]
+        }
     }
   }
   
