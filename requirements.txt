@@ -1,0 +1,4 @@
+protobuf==3.20.0
+streamlit
+google-cloud
+google-cloud-language
